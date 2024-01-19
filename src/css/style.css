@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..800&display=swap');
 
 body {
     overflow-x: hidden; 
@@ -30,7 +30,7 @@ html {
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Popins', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     transition: all 0.3s ease;
 }
 
@@ -48,7 +48,7 @@ html {
 .navbar .logo a {
     color: #fff;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .navbar .logo a span {
@@ -69,13 +69,13 @@ html {
     display: block;
     color: #fff;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 800;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover {
-    color: #0000ff;
+    color: #0ff;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -124,7 +124,7 @@ html {
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Degular-Display-Semibold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
     top: 0;
 }
 
@@ -148,7 +148,7 @@ html {
 }
 
 .home .home-content .text-3 span {
-    color: #0f0;
+    color: #00f;
     font-weight: 500;
 }
 
@@ -175,7 +175,7 @@ section {
 }
 
 .about, .services, .skills, .projects, .contact, footer {
-    font-family: 'Poppins', sans-serif;
+    font-family: Degular-Display-Semibold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
 }
 
 .about .about-content,
@@ -195,7 +195,7 @@ section .title {
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Degular-Display-Semibold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
 }
 
 section .title::before {
@@ -256,7 +256,7 @@ section .title::after {
     text-align: justify;
 }
 
-.about .about-content .right a {
+.about .about-content .right a.cv-btn {
     display: inline-block;
     background: #000080;
     color: #fff;
@@ -278,7 +278,7 @@ section .title::after {
 /* services section styling */
 .services, .projects {
     color: #fff;
-    background: #111;
+    background: #06043E;
 }
 
 .services .title::before,
@@ -288,7 +288,7 @@ section .title::after {
 
 .services .title::after,
 .projects .title::after {
-    background: #111;
+    background: #06043E;
     content: "what I provide";
 }
 
@@ -408,8 +408,20 @@ section .title::after {
     width: 75%;
 }
 
+.skills-content .right .bootstrap::before {
+    width: 65%;
+}
+
+.skills-content .right .javascript::before {
+    width: 45%;
+}
+
 .skills-content .right .python::before {
     width: 45%;
+}
+
+.skills-content .right .php::before {
+    width: 30%;
 }
 
 .skills-content .right .networking::before {
@@ -568,7 +580,7 @@ section .title::after {
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Degular-Display-Semibold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
 }
 
 .contact .right form .textarea textarea {
@@ -601,13 +613,13 @@ section .title::after {
 
 /* footer section styling */
 footer {
-    background: #111;
+    background: #06043E;
     padding: 20px 23px;
     color: #fff;
 }
 
 footer span a {
-    color: #00f;
+    color: #0ff;
     text-decoration: none;
 }
 
@@ -651,7 +663,7 @@ footer span a:hover {
         width: 100%;
         left: -100%;
         top: 0;
-        background-color: #111;
+        background-color: #06043E;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;

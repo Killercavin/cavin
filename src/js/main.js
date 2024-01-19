@@ -32,7 +32,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Beginner Programmer", "Tech Enthusiast"],
+        strings: ["Junior Developer", "Tech Enthusiast more so in AI"],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
