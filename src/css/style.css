@@ -432,6 +432,10 @@ section .title::after {
     width: 75%;
 }
 
+.skills-content .right .postman::before {
+    width: 75%;
+}
+
 /* Projects section styling */
 .projects .title::after {
     content: "what I have done";
