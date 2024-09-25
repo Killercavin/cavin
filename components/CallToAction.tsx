@@ -16,11 +16,11 @@ const CallToAction = () => {
                 <h3 className="md:text-base lg:text-xl font-medium mt-1.5">Make this <span className="text-yellow-400">yours</span> by forking.</h3>
                 <p className="text-sm md:text-base mt-2.5 md:mt-6">Fork this template on GitHub start building your own portfolio website.</p>
                 <div className="flex items-center gap-4 my-4">
-                    <Link href="https://github.com/Killercavin/killercavin.githu.io" target="_blank" className="py-2 px-4 bg-white text-black rounded-lg w-fit flex items-center gap-2 hover:shadow-xl transition-shadow">
+                    <Link href="https://github.com/Killercavin/Cavin" target="_blank" className="py-2 px-4 bg-white text-black rounded-lg w-fit flex items-center gap-2 hover:shadow-xl transition-shadow">
                         <FaGithub />
                         Fork Now
                     </Link>
-                    <Link href="https://github.com/Killercavin/killercavin.githu.io#readme" target="_blank" className="py-2 px-4 bg-violet-800 rounded-lg w-fit flex items-center gap-2 hover:bg-violet-900 transition-all">
+                    <Link href="https://github.com/Killercavin/Cavin#readme" target="_blank" className="py-2 px-4 bg-violet-800 rounded-lg w-fit flex items-center gap-2 hover:bg-violet-900 transition-all">
                         Visit Docs
                         <BiLinkExternal />
                     </Link>
