@@ -1,4 +1,4 @@
-![Portfolio](./public/portfolio-fork-dark.png)
+![Portfolio](./public/portfolio-fork-light.png)
 
 <p align="center">
   <a href="#introduction-">Introduction</a> •
