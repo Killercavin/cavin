@@ -16,7 +16,7 @@
   },
   "about": {
     "aboutImage": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727107724/aboutImage_zpqtod.jpg",
-    "aboutImageCaption": "I practice building stuffs",
+    "aboutImageCaption": "I practice and build stuffs",
     "title": "Frontend Developer",
     "about": "I am a Frontend developer who's passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
     "callUrl": "",
@@ -90,7 +90,7 @@
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101212/FinanSmart_vt5xus.png",
       "links": {
-        "code": "https://github.com/Killercavin/finsmart",
+        "code": "https://github.com/Killercavin/ai-finance-manager",
         "video": "",
         "visit": ""
       }
@@ -101,7 +101,7 @@
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101211/CancerBeat_ps3dvz.png",
       "links": {
-        "code": "",
+        "code": "https://github.com/Killercavin/cancer-beat",
         "video": "",
         "visit": ""
       }
