@@ -1,133 +1,155 @@
 {
   "main": {
     "name": "Cavin Larry",
-    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements and needs, with attention to detail, scalability, and performance.",
+    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "titles": [
       "Frontend Development",
       "Backend Development"
     ],
-    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "heroImage": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727107731/aboutImage_rmqfwf.png",
     "techStackImages": [
-      "https://img.icons8.com/color/144/000000/material-ui.png",
-      "https://img.icons8.com/color/144/000000/html-5--v1.png",
-      "https://img.icons8.com/color/144/000000/redux.png",
-      "https://img.icons8.com/color/144/000000/react.png"
+      "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+      "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000",
+      "https://img.icons8.com/?size=100&id=dJjTWMogzFzg&format=png&color=000000",
+      "https://img.icons8.com/?size=100&id=24895&format=png&color=000000"
     ]
   },
   "about": {
-    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
-    "aboutImageCaption": "< I build stuff 🚀/>",
-    "title": "Full Stack Developer",
-    "about": "I am a Full-Stack developer based in Pune, India. I'm an Information Technology undergraduate from SPPU, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
+    "aboutImage": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727107724/aboutImage_zpqtod.jpg",
+    "aboutImageCaption": "I practice building stuffs",
+    "title": "Frontend Developer",
+    "about": "I am a Frontend developer who's passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
     "callUrl": "",
     "resumeUrl": ""
   },
   "socials": [
     {
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/in/jhon-doe"
+      "link": "https://www.linkedin.com/in/killercavin"
     },
     {
       "icon": "FaGithub",
-      "link": "https://github.com/jhon-doe"
+      "link": "https://github.com/Killercavin"
     },
     {
       "icon": "FaInstagram",
-      "link": "https://www.instagram.com/jhondoe"
+      "link": "https://www.instagram.com/killer_cavin"
     },
     {
       "icon": "FaTwitter",
-      "link": "https://twitter.com/jhondoe"
+      "link": "https://twitter.com/Killercavin"
     }
   ],
   "skills": [
     {
-      "name": "JavaScript",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "name": "React",
+      "image": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000",
       "category": "Frontend"
     },
     {
-      "name": "Firebase",
-      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "name": "TailwindCSS",
+      "image": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
+      "category":"Frontend"
+    },
+    {
+      "name": "NextJS",
+      "image": "https://img.icons8.com/?size=100&id=gwR0hbBi5JeZ&format=png&color=000000",
+      "category": "Backend"
+    },
+    {
+      "name": "NodeJS",
+      "image": "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
       "category": "Backend"
     },
     {
       "name": "GitHub",
       "image": "https://img.icons8.com/material-outlined/96/null/github.png",
       "category": "Tools"
+    },
+    {
+      "name": "npm",
+      "image": "https://img.icons8.com/?size=100&id=24895&format=png&color=000000",
+      "category":"Tools"
     }
   ],
   "projects": [
     {
-      "name": "Project Title",
-      "techstack": "HTML5, CSS3, JavaScript, jQuery",
-      "category": "MERN Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-      "links": {
-        "code": "",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "Project Title",
-      "techstack": "Flutter, Dart, Firebase",
-      "category": "Flutter",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-      "links": {
-        "code": "",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "Project Title",
-      "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
+      "name": "TMGrafixLab",
+      "techstack": "HTML5, CSS3, JavaScript",
       "category": "LAMP Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101216/tmgrafixlab_n6dvjl.png",
+      "links": {
+        "code": "https://github.com/Killercavin/tmgrafixlab",
+        "video": "",
+        "visit": "https://killercavin.github.io/tmgrafixlab"
+      }
+    },
+    {
+      "name": "FinSmart",
+      "techstack": "React, NextJS, PostgreSQL",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101212/FinanSmart_vt5xus.png",
+      "links": {
+        "code": "https://github.com/Killercavin/finsmart",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Cancer Beat",
+      "techstack": "React, NextJS, PostgreSQL",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101211/CancerBeat_ps3dvz.png",
       "links": {
         "code": "",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "NextJS Dashboard",
+      "techstack": "React, NextJS, PostgreSQL",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727106723/hero-desktop_jg1eai.png",
+      "links": {
+        "code": "https://github.com/Killercavin/nextjs-dashboard",
         "video": "",
         "visit": ""
       }
     }
+
   ],
   "educations": [
     {
-      "institute": "XYZ School | CBSE",
-      "degree": "HSC Science",
-      "duration": "2014 - 2016"
+      "institute": "Meru University of Science & Technology | MUST",
+      "degree": "Bachelor of Science Information Technology",
+      "duration": "2021 - Present",
+      "desc": [
+        "Pursuing Information Technology Program",
+        "Learnt Software Engineering, Computer Networking, Computer Hardware and other IT related knowledge",
+        "Familiar with Software Development, IT Support, Computer Networking, Project Management, Communication, Leadership."
+      ]
     },
     {
-      "institute": "XYZ College Of Engineering",
-      "degree": "B.Tech CSE",
-      "duration": "2016 - 2020",
+      "institute": "Power Learn Project Organization Academy | PLP",
+      "degree": "Software Development",
+      "duration": "May, 2024 - Present",
       "desc": [
-        "Pursuing IT Engineering course from ABC University",
-        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
+        "Persuing Software Development",
+        "Worked on web application development using React, NextJS, REST APIs, designing a database system using SQL",
         "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
       ]
     }
   ],
   "experiences": [
     {
-      "company": "ABC Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2020 -2022",
+      "company": "Nairobi City Water & Sewerage Company Limited",
+      "position": "Information Technology Support Assistant",
+      "duration": "May, 2024 - August, 2024",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
-      ]
-    },
-    {
-      "company": "XYZ Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2022 - present",
-      "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Technical support, troubleshooting and help desk support", 
+        "System monitoring, network monitoring, user access management ans system administration", 
+        "Operating system management, backup and recovery, user training in new systems and software."
       ]
     }
   ]

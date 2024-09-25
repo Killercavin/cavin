@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
-import { Link as ScrollLink } from 'react-scroll'
+import { Button, Link as ScrollLink } from 'react-scroll'
 import Typewriter from 'typewriter-effect';
 import { IoIosArrowForward } from 'react-icons/io';
+import wavingHand from '@/public/waving-hand.gif';
 import { main } from '@/types/main';
 
 interface HeroProps {
@@ -31,17 +32,17 @@ const Hero = ({ mainData }: HeroProps) => {
 
                 <div className="flex flex-col gap-4 md:gap-6 text-left lg:w-1/2 2xl:w-1/3 mx-4 md:mx-6 xl:mx-0">
                     <div className="flex items-center gap-1">
-                        <Image unoptimized={true} alt='waving-hand' width={30} height={30} src={'/waving-hand.gif'} />
-                        <p className="text-lg md:text-xl mt-2 md:mt-1.5">
-                            Hello
+                        <Image unoptimized={true} alt='waving-hand' width={30} height={30} src={wavingHand} />
+                        <p className="text-lg font-medium font-semibold md:text-xl mt-2 md:mt-1.5">
+                            Hello, here is
                         </p>
                     </div>
-                    <h1 className="text-4xl md:text-6xl font-bold relative">
-                        I&apos;m {name}
+                    <h1 className="text-3xl md:text-6xl font-bold relative">
+                        {name}
                     </h1>
                     <div className="flex flex-row items-start md:items-center gap-1.5">
-                        <h2 className="text-lg md:text-2xl">
-                            I am into
+                        <h2 className="text-lg font-medium font-semibold md:text-2xl">
+                            I&apos;m into
                         </h2>
                         <Typewriter
                             options={{
@@ -50,31 +51,18 @@ const Hero = ({ mainData }: HeroProps) => {
                                 loop: true,
                                 deleteSpeed: 50,
                                 delay: 50,
-                                wrapperClassName: "text-violet-700 dark:text-violet-600 text-lg md:text-2xl font-medium",
+                                wrapperClassName: "text-violet-700 dark:text-violet-600 text-lg md:text-2xl font-medium font-semibold",
                                 cursorClassName: "text-violet-700 dark:text-violet-600 text-lg md:text-2xl"
                             }}
                         />
                     </div>
 
-                    <p className='text-sm md:text-base text-gray-600 dark:text-gray-300'>
+                    <p className='text-md font-semibold font-medium md:text-base text-gray-600 dark:text-gray-300'>
                         {shortDesc}
                     </p>
 
-                    {/* <a href="https://sppuprep.tech" target="_blank" rel="noopener noreferrer" className="relative whitespace-nowrap before:absolute before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 before:bg-violet-300 dark:before:bg-violet-600">
-                        <span className="relative">SPPU Prep</span>
-                    </a> */}
-
-                    <ScrollLink
-                        className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
-                        to={'about'}
-                        offset={-60}
-                        smooth={true}
-                        duration={500}
-                        isDynamic={true}
-                    >
-                        About Me
-                        <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
-                    </ScrollLink>
+                    <a href="/files/CavinlarryResume.pdf" target="_blank" rel="noopener noreferrer" className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white font-semibold">View Resume
+                    </a>
                 </div>
 
                 <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-0">

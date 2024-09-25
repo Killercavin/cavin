@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       // fontFamily: {
-      //   poppins: ['var(--font-poppins)']
+      //   quicksand: ['var(--font-quicksand)']
       // },
       colors: {
         grey: {
