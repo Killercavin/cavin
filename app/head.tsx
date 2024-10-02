@@ -8,13 +8,13 @@ export default function Head() {
       <meta property="og:title" content="CalaTech | Cavin Larry - Web Developer" />
       <meta property="og:description"
         content="I am a Frontend developer who's passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects." />
-      <meta property="og:url" content="https://killercavin.github.io" />
-      <meta property="og:image" content="https://killercavin.github.io" />
-      <link rel="canonical" href="https://killercavin.github.io" />
+      <meta property="og:url" content="https://calatech.netlify.app" />
+      <meta property="og:image" content="https://calatech.netlify.app" />
+      <link rel="canonical" href="https://calatech.netlify.app" />
       <meta name="author" content="Cavin Larry" />
       <meta name="language" content="English" />
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="https://killercavin.github.io" />
+      <meta name="twitter:site" content="https://calatech.netlify.app" />
       <meta name="application-name" content="CalaTech | Cavin Larry - Web Developer" />
       <meta name="apple-mobile-web-app-title" content="CalaTech | Cavin Larry - Web Developer" />
       <link rel="icon" href="/favicon.ico" />
