@@ -1,27 +1,139 @@
 {
+  "about": {
+    "about": "I am a Frontend developer who's passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
+    "aboutImage": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727107724/aboutImage_zpqtod.jpg",
+    "aboutImageCaption": "I practice and build stuffs",
+    "callUrl": "",
+    "resumeUrl": "",
+    "title": "Frontend Developer"
+  },
+  "educations": [
+    {
+      "degree": "Bachelor of Science Information Technology",
+      "desc": [
+        "Pursuing Information Technology Program",
+        "Learnt Software Engineering, Computer Networking, Computer Hardware and other IT related knowledge",
+        "Familiar with Software Development, IT Support, Computer Networking, Project Management, Communication, Leadership."
+      ],
+      "duration": "2021 - Present",
+      "institute": "Meru University of Science & Technology | MUST"
+    },
+    {
+      "degree": "Software Development",
+      "desc": [
+        "Persuing Software Development",
+        "Worked on web application development using React, NextJS, REST APIs, designing a database system using SQL",
+        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
+      ],
+      "duration": "May, 2024 - Present",
+      "institute": "Power Learn Project Organization Academy | PLP"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Nairobi City Water & Sewerage Company Limited",
+      "desc": [
+        "Technical support, troubleshooting and help desk support",
+        "System monitoring, network monitoring, user access management ans system administration",
+        "Operating system management, backup and recovery, user training in new systems and software."
+      ],
+      "duration": "May, 2024 - August, 2024",
+      "position": "Information Technology Support Assistant"
+    }
+  ],
   "main": {
+    "heroImage": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727906436/heroImage_vlryy1.gif",
     "name": "Cavin Larry",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
-    "titles": [
-      "Frontend Development",
-      "Backend Development"
-    ],
-    "heroImage": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727107731/aboutImage_rmqfwf.png",
     "techStackImages": [
       "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
       "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000",
       "https://img.icons8.com/?size=100&id=dJjTWMogzFzg&format=png&color=000000",
       "https://img.icons8.com/?size=100&id=24895&format=png&color=000000"
+    ],
+    "titles": [
+      "Frontend Development",
+      "Backend Development"
     ]
   },
-  "about": {
-    "aboutImage": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727107724/aboutImage_zpqtod.jpg",
-    "aboutImageCaption": "I practice and build stuffs",
-    "title": "Frontend Developer",
-    "about": "I am a Frontend developer who's passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
-    "callUrl": "",
-    "resumeUrl": ""
-  },
+  "projects": [
+    {
+      "category": "LAMP Stack",
+      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101216/tmgrafixlab_n6dvjl.png",
+      "links": {
+        "code": "https://github.com/Killercavin/tmgrafixlab",
+        "video": "",
+        "visit": "https://killercavin.github.io/tmgrafixlab"
+      },
+      "name": "TMGrafixLab",
+      "techstack": "HTML5, CSS3, JavaScript"
+    },
+    {
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101212/FinanSmart_vt5xus.png",
+      "links": {
+        "code": "https://github.com/Killercavin/ai-finance-manager",
+        "video": "",
+        "visit": ""
+      },
+      "name": "FinSmart",
+      "techstack": "React, NextJS, PostgreSQL"
+    },
+    {
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101211/CancerBeat_ps3dvz.png",
+      "links": {
+        "code": "https://github.com/Killercavin/cancer-beat",
+        "video": "",
+        "visit": ""
+      },
+      "name": "Cancer Beat",
+      "techstack": "React, NextJS, PostgreSQL"
+    },
+    {
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727106723/hero-desktop_jg1eai.png",
+      "links": {
+        "code": "https://github.com/Killercavin/nextjs-dashboard",
+        "video": "",
+        "visit": ""
+      },
+      "name": "NextJS Dashboard",
+      "techstack": "React, NextJS, PostgreSQL"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "image": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000",
+      "name": "React"
+    },
+    {
+      "category": "Frontend",
+      "image": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
+      "name": "TailwindCSS"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/?size=100&id=gwR0hbBi5JeZ&format=png&color=000000",
+      "name": "NextJS"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+      "name": "NodeJS"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "name": "GitHub"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/?size=100&id=24895&format=png&color=000000",
+      "name": "npm"
+    }
+  ],
   "socials": [
     {
       "icon": "FaLinkedin",
@@ -38,119 +150,6 @@
     {
       "icon": "FaTwitter",
       "link": "https://twitter.com/Killercavin"
-    }
-  ],
-  "skills": [
-    {
-      "name": "React",
-      "image": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000",
-      "category": "Frontend"
-    },
-    {
-      "name": "TailwindCSS",
-      "image": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
-      "category":"Frontend"
-    },
-    {
-      "name": "NextJS",
-      "image": "https://img.icons8.com/?size=100&id=gwR0hbBi5JeZ&format=png&color=000000",
-      "category": "Backend"
-    },
-    {
-      "name": "NodeJS",
-      "image": "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
-      "category": "Backend"
-    },
-    {
-      "name": "GitHub",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
-      "category": "Tools"
-    },
-    {
-      "name": "npm",
-      "image": "https://img.icons8.com/?size=100&id=24895&format=png&color=000000",
-      "category":"Tools"
-    }
-  ],
-  "projects": [
-    {
-      "name": "TMGrafixLab",
-      "techstack": "HTML5, CSS3, JavaScript",
-      "category": "LAMP Stack",
-      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101216/tmgrafixlab_n6dvjl.png",
-      "links": {
-        "code": "https://github.com/Killercavin/tmgrafixlab",
-        "video": "",
-        "visit": "https://killercavin.github.io/tmgrafixlab"
-      }
-    },
-    {
-      "name": "FinSmart",
-      "techstack": "React, NextJS, PostgreSQL",
-      "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101212/FinanSmart_vt5xus.png",
-      "links": {
-        "code": "https://github.com/Killercavin/ai-finance-manager",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "Cancer Beat",
-      "techstack": "React, NextJS, PostgreSQL",
-      "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101211/CancerBeat_ps3dvz.png",
-      "links": {
-        "code": "https://github.com/Killercavin/cancer-beat",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "NextJS Dashboard",
-      "techstack": "React, NextJS, PostgreSQL",
-      "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727106723/hero-desktop_jg1eai.png",
-      "links": {
-        "code": "https://github.com/Killercavin/nextjs-dashboard",
-        "video": "",
-        "visit": ""
-      }
-    }
-
-  ],
-  "educations": [
-    {
-      "institute": "Meru University of Science & Technology | MUST",
-      "degree": "Bachelor of Science Information Technology",
-      "duration": "2021 - Present",
-      "desc": [
-        "Pursuing Information Technology Program",
-        "Learnt Software Engineering, Computer Networking, Computer Hardware and other IT related knowledge",
-        "Familiar with Software Development, IT Support, Computer Networking, Project Management, Communication, Leadership."
-      ]
-    },
-    {
-      "institute": "Power Learn Project Organization Academy | PLP",
-      "degree": "Software Development",
-      "duration": "May, 2024 - Present",
-      "desc": [
-        "Persuing Software Development",
-        "Worked on web application development using React, NextJS, REST APIs, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
-      ]
-    }
-  ],
-  "experiences": [
-    {
-      "company": "Nairobi City Water & Sewerage Company Limited",
-      "position": "Information Technology Support Assistant",
-      "duration": "May, 2024 - August, 2024",
-      "desc": [
-        "Technical support, troubleshooting and help desk support", 
-        "System monitoring, network monitoring, user access management ans system administration", 
-        "Operating system management, backup and recovery, user training in new systems and software."
-      ]
     }
   ]
 }
