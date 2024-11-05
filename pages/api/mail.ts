@@ -1,12 +1,17 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import sgMail from "@sendgrid/mail";
-
-sgMail.setApiKey(process.env.SENDGRID_API_KEY || '');
-
+import nodemailer from "nodemailer";
 type Data = {
     message: string;
 };
-
+const mailer : string  = process.env.emailId || '';
+const password : string = process.env.emailPass || '';
+const transporter = nodemailer.createTransport({
+    service : "gmail",
+    auth: {
+      user: mailer,
+      pass: password
+    },
+  });
 export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse<Data>
@@ -17,19 +22,25 @@ export default async function handler(
             email,
             message,
         }: { name: string; email: string; message: string } = req.body;
-        const msg = `Name: ${name}\r\n Email: ${email}\r\n Message: ${message}`;
-        const data = {
-            to: process.env.MAIL_TO as string,
-            from: process.env.MAIL_FROM as string,
-            subject: `${name.toUpperCase()} sent you a message from Portfolio`,
-            text: `Email => ${email}`,
-            html: msg.replace(/\r\n/g, "<br>"),
-        };
-        try {
-            await sgMail.send(data);
-            res.status(200).json({ message: "Your message was sent successfully." });
-        } catch (err) {
-            res.status(500).json({ message: `There was an error sending your message. ${err}` });
+        if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)) {
+          return res.status(400).send({message : 'Please provide a valid emailId.'})
         }
+        const msg = `<p><strong>Name:</strong> ${name}</p> <br>
+        <p><strong>Email:</strong> ${email}</p> <br>
+        <p><strong>Message:</strong> ${message}</p> <br>
+      `
+      try {
+        await transporter.sendMail({
+            from : mailer,
+            to : mailer,
+            subject : `${name} sent you a message from Portfolio`,
+            html : msg
+        })
+        return res.status(200).send({ message : "Your message was sent successfully." })
+      } catch (err) {
+        console.log("error : " + err);
+        return res.status(400).send({ message : `Sorry, an error occured! ${err}`});
+      }
+        
     }
 }

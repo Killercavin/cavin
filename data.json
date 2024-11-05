@@ -1,7 +1,7 @@
 {
   "about": {
     "about": "I am a Frontend developer who's passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
-    "aboutImage": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727107724/aboutImage_zpqtod.jpg",
+    "aboutImage": "/data-images/aboutImage.jpg",
     "aboutImageCaption": "I practice and build stuffs",
     "callUrl": "",
     "resumeUrl": "",
@@ -27,6 +27,16 @@
       ],
       "duration": "May, 2024 - Present",
       "institute": "Power Learn Project Organization Academy | PLP"
+    },
+    {
+      "degree": "Web3 Development",
+      "desc": [
+        "Persuing Web3 Development",
+        "Worked on blockchain development using Rust, Solidity, designing smart contracts, and deploying them on the blockchain",
+        "Familiar with blockchain development methodologies and project management practices, including Agile and Waterfall methodologies."
+      ],
+      "duration": "November, 2024 - Present",
+      "institute": "Web3Clubs | W3C"
     }
   ],
   "experiences": [
@@ -42,24 +52,25 @@
     }
   ],
   "main": {
-    "heroImage": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727906436/heroImage_vlryy1.gif",
-    "name": "Cavin Larry",
+    "heroImage": "/data-images/heroImage.gif",
+    "name": "Cavin",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "techStackImages": [
-      "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
-      "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000",
-      "https://img.icons8.com/?size=100&id=dJjTWMogzFzg&format=png&color=000000",
-      "https://img.icons8.com/?size=100&id=24895&format=png&color=000000"
+      "/data-socials/rust.svg",
+      "/data-socials/postman.png",
+      "/data-socials/npm.png",
+      "/data-socials/nextjs.png"
     ],
     "titles": [
       "Frontend Development",
-      "Backend Development"
+      "Backend Development",
+      "Blockchain Development"
     ]
   },
   "projects": [
     {
       "category": "LAMP Stack",
-      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101216/tmgrafixlab_n6dvjl.png",
+      "image": "/data-images/tmgrafixlab.png",
       "links": {
         "code": "https://github.com/Killercavin/tmgrafixlab",
         "video": "",
@@ -70,7 +81,7 @@
     },
     {
       "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101212/FinanSmart_vt5xus.png",
+      "image": "/data-images/finansmart.png",
       "links": {
         "code": "https://github.com/Killercavin/ai-finance-manager",
         "video": "",
@@ -81,7 +92,7 @@
     },
     {
       "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727101211/CancerBeat_ps3dvz.png",
+      "image": "/data-images/cancerbeat.png",
       "links": {
         "code": "https://github.com/Killercavin/cancer-beat",
         "video": "",
@@ -92,7 +103,7 @@
     },
     {
       "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/drwpzulf0/image/upload/v1727106723/hero-desktop_jg1eai.png",
+      "image": "/data-images/hero-desktop.png",
       "links": {
         "code": "https://github.com/Killercavin/nextjs-dashboard",
         "video": "",
@@ -104,24 +115,14 @@
   ],
   "skills": [
     {
-      "category": "Frontend",
-      "image": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000",
+      "category": "Web",
+      "image": "/data-socials/react.png",
       "name": "React"
     },
     {
-      "category": "Frontend",
-      "image": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
-      "name": "TailwindCSS"
-    },
-    {
-      "category": "Backend",
-      "image": "https://img.icons8.com/?size=100&id=gwR0hbBi5JeZ&format=png&color=000000",
+      "category": "Web",
+      "image": "/data-socials/nextjs.png",
       "name": "NextJS"
-    },
-    {
-      "category": "Backend",
-      "image": "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
-      "name": "NodeJS"
     },
     {
       "category": "Tools",
@@ -132,6 +133,11 @@
       "category": "Tools",
       "image": "https://img.icons8.com/?size=100&id=24895&format=png&color=000000",
       "name": "npm"
+    },
+    {
+      "category": "Software",
+      "image": "/data-socials/rust.svg",
+      "name": "Rust"
     }
   ],
   "socials": [
