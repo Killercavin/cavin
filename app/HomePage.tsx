@@ -11,23 +11,38 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 interface Props {
-    data: data,
+  data: data;
 }
 
 const HomePage = ({ data }: Props) => {
-    return (
-        <>
-            <Header logo={data.main.name} />
-            <Hero mainData={data.main} />
-            <Socials socials={data.socials} />
-            <About aboutData={data.about} name={data.main.name} />
-            <Skills skillData={data.skills} />
-            <Projects projectsData={data.projects} />
-            <Experiences experienceData={data.experiences} educationData={data.educations} />
-            <Contact />
-            <Footer socials={data.socials} name={data.main.name} />
-        </>
-    )
-}
+  const { main, socials, about, skills, projects, experiences, educations } = data;
 
-export default HomePage
+  return (
+    <div className="flex flex-col min-h-screen">
+      {/* Header */}
+      <Header logo={main.name} />
+
+      {/* Main Content */}
+      <main className="flex-grow">
+        <Hero mainData={main} />
+        <Socials socials={socials} />
+        <About aboutData={about} name={main.name} />
+        <Skills skillData={skills} />
+        <Projects projectsData={projects} />
+        <Experiences experienceData={experiences} educationData={educations} />
+        <Contact />
+      </main>
+
+      {/* Footer */}
+      <Footer
+        socials={socials.map((social) => ({
+          ...social,
+          icon: social.icon as any, // Adjust `icon` typing if needed
+        }))}
+        name={main.name}
+      />
+    </div>
+  );
+};
+
+export default HomePage;
