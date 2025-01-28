@@ -20,13 +20,13 @@ const Projects = ({ projectsData }: Props) => {
   const [filteredProjects, setFilteredProjects] = useState<project[]>(projects);
   const [viewAll, setViewAll] = useState(false);
 
-  const filterProjects = (cat: string) => {
+  const filterProjects = useCallback((cat: string) => {
     setViewAll(false);
     setCategory(cat);
     setFilteredProjects(
       projects.filter((p) => p.category.toLowerCase() === cat.toLowerCase())
     );
-  };
+  }, [projects]);
 
   useEffect(() => {
     if (categories.includes("MERN Stack")) {
@@ -34,7 +34,7 @@ const Projects = ({ projectsData }: Props) => {
     } else {
       filterProjects(categories[0] || "");
     }
-  }, [categories]);
+  }, [categories, filterProjects]);
 
   return (
     <SectionWrapper id="projects" className="mx-4 md:mx-0 min-h-screen">
@@ -82,7 +82,7 @@ const Projects = ({ projectsData }: Props) => {
 
 export default Projects;
 
-type MouseEventHandler = (event: React.MouseEvent<HTMLButtonElement>) => void;
+type MouseEventHandler = () => void;
 
 export const ViewAll = ({
   handleClick,
@@ -118,3 +118,6 @@ export const ViewAll = ({
     </div>
   </>
 );
+import { useCallback } from "react";
+// Remove the incorrect useCallback implementation
+
