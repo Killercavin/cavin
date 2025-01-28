@@ -1,6 +1,6 @@
 {
   "about": {
-    "about": "I am a Frontend developer who's passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
+    "about": "I am a Frontend developer who's passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer.",
     "aboutImage": "/data-images/aboutImage.jpg",
     "aboutImageCaption": "I practice and build stuffs",
     "callUrl": "",
@@ -27,16 +27,6 @@
       ],
       "duration": "May, 2024 - Present",
       "institute": "Power Learn Project Organization Academy | PLP"
-    },
-    {
-      "degree": "Web3 Development",
-      "desc": [
-        "Persuing Web3 Development",
-        "Worked on blockchain development using Rust, Solidity, designing smart contracts, and deploying them on the blockchain",
-        "Familiar with blockchain development methodologies and project management practices, including Agile and Waterfall methodologies."
-      ],
-      "duration": "November, 2024 - Present",
-      "institute": "Web3Clubs | W3C"
     }
   ],
   "experiences": [
@@ -56,88 +46,44 @@
     "name": "Cavin",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "techStackImages": [
-      "/data-socials/rust.svg",
       "/data-socials/postman.png",
       "/data-socials/npm.png",
-      "/data-socials/nextjs.png"
+      "/data-socials/python.png",
+      "/data-socials/kotlin.png"
     ],
     "titles": [
       "Frontend Development",
-      "Backend Development",
-      "Blockchain Development"
+      "Backend Development"
     ]
   },
   "projects": [
     {
-      "category": "LAMP Stack",
-      "image": "/data-images/tmgrafixlab.png",
+      "category": "MERN",
+      "image": "/portfolio-fork-light.png",
       "links": {
-        "code": "https://github.com/Killercavin/tmgrafixlab",
+        "code": "https://github.com/Killercavin/Cavin",
         "video": "",
-        "visit": "https://killercavin.github.io/tmgrafixlab"
+        "visit": "https://cavinlarry.vercel.app"
       },
-      "name": "TMGrafixLab",
-      "techstack": "HTML5, CSS3, JavaScript"
-    },
-    {
-      "category": "MERN Stack",
-      "image": "/data-images/finansmart.png",
-      "links": {
-        "code": "https://github.com/Killercavin/ai-finance-manager",
-        "video": "",
-        "visit": ""
-      },
-      "name": "FinSmart",
-      "techstack": "React, NextJS, PostgreSQL"
-    },
-    {
-      "category": "MERN Stack",
-      "image": "/data-images/cancerbeat.png",
-      "links": {
-        "code": "https://github.com/Killercavin/cancer-beat",
-        "video": "",
-        "visit": ""
-      },
-      "name": "Cancer Beat",
-      "techstack": "React, NextJS, PostgreSQL"
-    },
-    {
-      "category": "MERN Stack",
-      "image": "/data-images/hero-desktop.png",
-      "links": {
-        "code": "https://github.com/Killercavin/nextjs-dashboard",
-        "video": "",
-        "visit": ""
-      },
-      "name": "NextJS Dashboard",
-      "techstack": "React, NextJS, PostgreSQL"
+      "name": "Portfolio",
+      "techstack": "React, NextJS"
     }
   ],
   "skills": [
     {
-      "category": "Web",
+      "category": "Library/Framework",
       "image": "/data-socials/react.png",
       "name": "React"
     },
     {
-      "category": "Web",
-      "image": "/data-socials/nextjs.png",
-      "name": "NextJS"
+      "category": "Languages",
+      "image": "/data-socials/python.png",
+      "name": "Python"
     },
     {
-      "category": "Tools",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
-      "name": "GitHub"
-    },
-    {
-      "category": "Tools",
-      "image": "https://img.icons8.com/?size=100&id=24895&format=png&color=000000",
-      "name": "npm"
-    },
-    {
-      "category": "Software",
-      "image": "/data-socials/rust.svg",
-      "name": "Rust"
+      "category": "Languages",
+      "image": "/data-socials/kotlin.png",
+      "name": "Kotlin"
     }
   ],
   "socials": [

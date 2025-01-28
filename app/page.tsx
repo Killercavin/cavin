@@ -3,7 +3,7 @@ import HomePage from "./HomePage"
 import * as fs from "fs";
 
 async function getData() {
-  try{
+  try {
     const jsonData = fs.readFileSync("data.json", "utf-8");
     console.log("Data from file : " + jsonData);
     return JSON.parse(jsonData);
@@ -11,7 +11,7 @@ async function getData() {
     console.log("Error reading file : " + err);
   }
 }
- 
+
 export default async function page() {
 
   const data = await getData()
@@ -21,9 +21,11 @@ export default async function page() {
       {data ?
         <HomePage data={data} />
         :
-        <div className='h-screen w-screen flex flex-col items-center justify-center gap-5 text-violet-600 fixed z-30 bg-gray-100 dark:bg-grey-900'>
-          <FaRust size={100} className='animate-pulse' />
-          <p className='animate-pulse text-xl'>Loading...</p>
+        <div className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-grey-900">
+          <div className="flex flex-col items-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-violet-600"></div>
+            <p className="mt-4 text-lg font-medium">Loading...</p>
+          </div>
         </div>
       }
     </>

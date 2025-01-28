@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
-import { Button, Link as ScrollLink } from 'react-scroll'
 import Typewriter from 'typewriter-effect';
-import { IoIosArrowForward } from 'react-icons/io';
 import wavingHand from '@/public/waving-hand.gif';
 import { main } from '@/types/main';
 
