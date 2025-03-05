@@ -1,5 +1,15 @@
+# [[redirects]]
+#   from = "/*"
+#   to = "https://cavin.vercel.app/:splat"
+#   status = 301
+#   force = true
+
+# NOTE: Uncomment the above redirect if deploying to Netlify.
+
+# If you want to proxy to Vercel just change the url in to: "https://....vercel.app" with yours.
+
 [[redirects]]
   from = "/*"
-  to = "https://caladev.vercel.app/:splat"
+  to = "https://cavin.vercel.app/:splat"
   status = 301
   force = true
