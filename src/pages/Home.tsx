@@ -35,7 +35,7 @@ function Home() {
                     View Projects
                 </a>
                 <a
-                    href="/"
+                    href="/src/assets/CavinLarryCV.pdf"
                     className="px-6 py-2 bg-transparent border-2 border-slate-800 text-slate-800 font-semibold rounded-lg hover:bg-slate-800 hover:text-white transition duration-300 w-full sm:w-auto"
                 >
                     Resume
