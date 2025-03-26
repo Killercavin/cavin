@@ -8,8 +8,6 @@
   <a href="#license-">License</a>
 </p>
 
-</div>
-
 ## Introduction 👋
 This is a personal portfolio web application built with Vite, React, TailwindCSS and TypeScript.
 
