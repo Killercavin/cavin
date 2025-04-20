@@ -5,5 +5,12 @@
     "desc": "My personal portfolio",
     "image": "/images/projects/portfolio.png",
     "alt": "Screenshot of portfolio website"
+  },
+  {
+    "name": "BrightSide",
+    "url": "https://github.com/Killercavin/brightside",
+    "desc": "A medical equipment shop",
+    "image": "/images/projects/brightside.png",
+    "alt": "Screenshot of BrightSide website"
   }
 ]
