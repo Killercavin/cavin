@@ -7,6 +7,13 @@
     "alt": "Screenshot of portfolio website"
   },
   {
+    "name": "Protein Binding",
+    "url": "https://github.com/Killercavin/protein-binding",
+    "desc": "A web app to predict protein binding",
+    "image": "/images/projects/protein-binding.png",
+    "alt": "Screenshot of protein binding website"
+  },
+  {
     "name": "BrightSide",
     "url": "https://github.com/Killercavin/brightside",
     "desc": "A medical equipment shop",
