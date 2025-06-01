@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* body {
+  font-family: "Quicksand", sans-serif;
+} */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: indigo;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
