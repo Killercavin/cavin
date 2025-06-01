@@ -1,3 +1,4 @@
+# This workflow disables GitHub Pages for the repository.
 name: Disable GitHub Pages
 
 on:
