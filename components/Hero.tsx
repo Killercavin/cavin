@@ -14,7 +14,7 @@ const Hero = ({ mainData }: HeroProps) => {
     const { name, titles, heroImage, shortDesc, techStackImages } = mainData
 
     return (
-        <section id='home' className={`${theme === 'dark' && "bg-grey-900"} relative min-h-screen w-full mx-auto overflow-hidden`}>
+        <section id='home' className={`${theme === 'dark' && "bg-gray-900"} relative min-h-screen w-full mx-auto overflow-hidden`}>
 
             <div className="absolute -z-10 min-h-screen h-full w-full">
                 <Image
