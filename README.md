@@ -8,7 +8,6 @@
   <a href="#license-">License</a>
 </p>
 
-</div>
 
 ## Introduction 👋
 This is a personal portfolio web application built with NextJS, TypeScript, TailwindCSS and Firebase.
