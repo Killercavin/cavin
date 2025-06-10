@@ -1,7 +1,7 @@
 'use client';
 
 import './globals.css';
-import { Quicksand } from "@next/font/google";
+import { Quicksand } from "next/font/google";
 import ClientThemeProvider from '@/components/ClientThemeProvider';
 import { Analytics } from '@vercel/analytics/react';
 import { useState, useEffect } from 'react';
