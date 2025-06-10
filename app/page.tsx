@@ -8,7 +8,7 @@ async function getData() {
     console.log("Data from file : " + jsonData);
     return JSON.parse(jsonData);
   } catch (err) {
-    console.log("Error reading file : " + err);
+    console.error("Error reading file : " + err);
   }
 }
 
