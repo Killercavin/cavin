@@ -65,7 +65,7 @@ Here are the steps to run the portfolio locally.
 
 ## Deployment 🚀
 
-1. Create a Vercel or Netlify or Vercel account and select "Import Project"
+1. Create a Vercel or Netlify account and select "Import Project"
 
 2. Select the forked repository and deploy
 
