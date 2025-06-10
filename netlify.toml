@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "https://cavinlarry.vercel.app/:splat"
-  status = 301
-  force = true
