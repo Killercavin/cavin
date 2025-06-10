@@ -1,12 +1,10 @@
 'use client';
 
 import './globals.css';
-import { Quicksand } from "next/font/google";
+import { Quicksand } from "@next/font/google";
 import ClientThemeProvider from '@/components/ClientThemeProvider';
 import { Analytics } from '@vercel/analytics/react';
 import { useState, useEffect } from 'react';
-import Loading from './loading';
-import Head from './head';
 
 const quicksand = Quicksand({
   subsets: ['latin'],
@@ -31,13 +29,26 @@ export default function RootLayout({
 
   return (
     <html lang="en" dir="ltr">
-      <Head />
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charSet="UTF-8" />
+        <meta name="description" content="Your website description here." />
+        <link rel="icon" href="/favicon.ico" />
+        <title>Cavin | Portfolio</title>
+      </head>
       <body
         className={`${quicksand.className} antialiased bg-gray-100/50 dark:bg-grey-900 text-black dark:text-white overflow-x-hidden`}
       >
         <ClientThemeProvider>
           {/* Loading UI */}
-          {isLoading ? <Loading /> : (
+          {isLoading ? (
+            <div className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-grey-900">
+              <div className="flex flex-col items-center">
+                <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-violet-600"></div>
+                <p className="mt-4 text-lg font-medium">Loading...</p>
+              </div>
+            </div>
+          ) : (
             // Render children once loading is complete
             children
           )}

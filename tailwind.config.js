@@ -1,26 +1,29 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   darkMode: 'class',
   content: [
-    './app/**/*.{js,ts,jsx,tsx}',
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      // fontFamily: {
+      //   quicksand: ['var(--font-quicksand)']
+      // },
       colors: {
         grey: {
           800: '#18141c',
-          900: '#120f16',
+          900: '#120f16'
         },
         yellow: {
           400: '#FEDE00',
-        },
+        }
       },
       backgroundImage: {
         heropattern: "url(/herobgc.jpg)",
-      },
+      }
     },
-  },
-  plugins: [],
-};
+    plugins: [],
+  }
+}
