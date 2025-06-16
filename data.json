@@ -25,32 +25,33 @@
         "Worked on web application development using React, NextJS, REST APIs, designing a database system using SQL",
         "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
       ],
-      "duration": "May, 2024 - Present",
+      "duration": "May, 2024 - December, 2024",
       "institute": "Power Learn Project Organization Academy | PLP"
     }
   ],
   "experiences": [
     {
       "company": "Nairobi City Water & Sewerage Company Limited",
+
+      "duration": "May, 2024 - August, 2024",
+      "position": "Information Technology Support Assistant - Attachment",
       "desc": [
         "Technical support, troubleshooting and help desk support",
         "System monitoring, network monitoring, user access management ans system administration",
         "Operating system management, backup and recovery, user training in new systems and software."
-      ],
-      "duration": "May, 2024 - August, 2024",
-      "position": "Information Technology Support Assistant - Attachment"
+      ]
     },
     {
       "company": "Teach2give",
+      "duration":"May, 2025 - Present",
+      "position":"Information Technology Customer Service - Attachment",
       "desc": [
         "Omnichannel Customer Support",
         "Emotional Intelligence & Conflict Resolution",
         "Resume & LinkedIn Optimization",
         "Service Design, KPIs, AI & Automation",
         "Leadership, Coaching & Continuous Improvement"
-      ],
-      "duration":"May, 2025 - Present",
-      "position":"Information Technology Customer Service - Attachment"
+      ]
     }
   ],
   "main": {

@@ -51,7 +51,7 @@ const Experiences = ({ experienceData, educationData }: Props) => {
               key={index}
               {...item} // Ensure ExperienceCard accepts all necessary props
               index={index}
-              duration={`${item.startDate} - ${item.endDate}`}
+              duration={`${item.duration}`}
             />
           ))}
         </div>
