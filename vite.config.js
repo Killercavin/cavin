@@ -4,10 +4,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ mode }) => ({
     base: process.env.NODE_ENV === 'production' ? '/' : '/cavin/',
     plugins: [react()],
-    server: {
-        // This ensures your dev server serves from the correct base path
-        open: '/cavin/',
-    },
     build: {
         rollupOptions: {
             output: {
