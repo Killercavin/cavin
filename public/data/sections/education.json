@@ -1,0 +1,344 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/education/must.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2021,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 12
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Degree}} Information Technology",
+                            "province": "Meru",
+                            "country": "Kenya",
+                            "institution": "Meru University of Science & Technology (MUST)",
+                            "text": "Currently pursuing a Bachelor's degree with a strong focus on [[Information Technology]], gaining comprehensive, hands-on experience in designing scalable systems, developing computer networks, and building practical IT skills.",
+                            "list": [
+                                "Web Development",
+                                "Mobile Development",
+                                "Database Systems",
+                                "Computer Networks",
+                                "Software Engineering",
+                                "Cloud Computing",
+                                "PC Maintainance & Hadware Assembling",
+                                "Cybersecurity"
+                            ],
+                            "tags": [
+                                "Information Technology",
+                                "Scalable Systems",
+                                "Computer Networks",
+                                "Systems Design",
+                                "Software Engineering",
+                                "IT Infrastructure",
+                                "Full Stack Development",
+                                "Problem Solving",
+                                "Network Administration",
+                                "Project-Based Learning"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/education/plp.webp",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Nanodegree}} Software Development",
+                            "province": "Nairobi",
+                            "country": "Remote",
+                            "institution": "Powerlearn Project Organization(PLP) Academy",
+                            "text": "Successfully completed an intensive Nanodegree program with a strong emphasis on [[software development]], where I gained comprehensive, hands-on experience in building dynamic and scalable web and applications.",
+                            "list": [
+                                "Web Development",
+                                "Mobile Development",
+                                "Database Systems"
+                            ],
+                            "tags": [
+                                "JS",
+                                "TS",
+                                "HTML",
+                                "CSS",
+                                "TailwindCSS",
+                                "React",
+                                "Python",
+                                "Dart",
+                                "NodeJS",
+                                "Django",
+                                "Flutter",
+                                "PostgreSQL",
+                                "MySQL",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/education/freecodecamp.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 10
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 10
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Nanodegree}} Responsive Web Design",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "FreeCodeCamp",
+                            "text": "Successfully completed the nanodegree program in [[Responsive Web Design]]. Developed strong proficiency in HTML5, CSS3, Flexbox, and Grid to build responsive, mobile-first web interfaces. Gained practical experience in designing accessible, user-friendly websites and implementing responsive layouts that adapt seamlessly across devices.",
+                            "list": [
+                                "HTML5",
+                                "CSS3",
+                                "Flexbox",
+                                "CSS Grid",
+                                "Responsive design",
+                                "Mobile-first development",
+                                "Accessibility principles",
+                                "Media queries"
+                            ],
+                            "tags": [
+                                "JS",
+                                "TS",
+                                "HTML",
+                                "CSS",
+                                "TailwindCSS",
+                                "React"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/education/freecodecamp.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 10
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 10
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Nanodegree}} Scientific Computing with Python",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "FreeCodeCamp",
+                            "text": "Successfully completed an intensive nanodegree program on [[Scientific Computing with Python]]. Gained hands-on experience in fundamental Python programming, data structures, functional programming, and working with libraries such as NumPy, Pandas, and Matplotlib to perform data analysis, build algorithms, and solve real-world scientific computing problems.",
+                            "list": [
+                                "Python programming fundamentals",
+                                "Functional programming",
+                                "NumPy",
+                                "Pandas",
+                                "Matplotlib",
+                                "Data cleaning and manipulation",
+                                "Algorithm development",
+                                "Problem-solving with code"
+                            ],
+                            "tags": [
+                                "Python",
+                                "Data Analysis",
+                                "Scientific Computing",
+                                "Algorithms",
+                                "Problem Solving",
+                                "Data Visualization"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "images/education/freecodecamp.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 2
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 2
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Nanodegree}} Legacy JavaScript Algorithms and Data Structures",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "FreeCodeCamp",
+                            "text": "Completed the freeCodeCamp certification in Legacy JavaScript Algorithms and Data Structures. Acquired a solid foundation in JavaScript fundamentals, including variables, loops, functions, arrays, objects, ES5/ES6 syntax, and basic algorithmic problem solving. Built practical coding skills by completing numerous algorithm challenges and data structure exercises.",
+                            "list": [
+                                "JavaScript fundamentals",
+                                "ES5/ES6 syntax",
+                                "Loops and conditionals",
+                                "Functions",
+                                "Arrays and objects manipulation",
+                                "Algorithmic problem-solving",
+                                "Recursion",
+                                "Debugging techniques"
+                            ],
+                            "tags": [
+                                "JavaScript",
+                                "Algorithms",
+                                "Data Structures",
+                                "ES6",
+                                "Functional Programming",
+                                "Problem Solving",
+                                "Coding Challenges"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "images/education/freecodecamp.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Nanodegree}} Foundational C# with Microsoft Certification",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "FreeCodeCamp",
+                            "text": "Earned the Foundational C# with Microsoft Certification, demonstrating proficiency in C# fundamentals including variables, data types, control structures, object-oriented programming, and error handling. Gained practical experience in building simple, structured C# applications and understanding core .NET concepts through hands-on projects and Microsoft learning modules.",
+                            "list": [
+                                "C# programming fundamentals",
+                                "Variables and data types",
+                                "Control structures",
+                                "Functions",
+                                "Object-Oriented Programming (OOP)",
+                                "Exception handling",
+                                ".NET basics",
+                                "Modular code design"
+                            ],
+                            "tags": [
+                                "C#",
+                                "Object-Oriented Programming",
+                                ".NET",
+                                "Microsoft Certification",
+                                "Error Handling",
+                                "Programming Fundamentals",
+                                "Control Structures"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "images/education/netacad.svg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 10
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Nanodegree}} AI Fundamentals with IBM SkillsBuild",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Cisco Networking Academy",
+                            "text": "Successfully completed the AI Fundamentals program on IBM SkillsBuild. Gained a foundational understanding of Artificial Intelligence concepts, including machine learning, neural networks, natural language processing, and ethical considerations in AI. Explored real-world applications of AI and its impact across industries through guided labs and interactive learning modules.",
+                            "list": [
+                                "AI fundamentals",
+                                "Machine learning basics",
+                                "Neural networks overview",
+                                "Natural Language Processing (NLP)",
+                                "Ethics in AI",
+                                "AI use cases and applications",
+                                "Data-driven decision making",
+                                "Introductory model training concepts"
+                            ],
+                            "tags": [
+                                "AI fundamentals",
+                                "Machine learning basics",
+                                "Neural networks overview",
+                                "Natural Language Processing (NLP)",
+                                "Ethics in AI",
+                                "AI use cases and applications",
+                                "Data-driven decision making",
+                                "Introductory model training concepts"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/education/postman.svg",
+                    "faIcon": "fa-solid fa-life-ring",
+                    "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
+                    "date": {"year": 2024, "month": 3},
+                    "link": {"href": "https://www.linkedin.com/in/killercavin/details/certifications/1712293210160/single-media-viewer/?type=DOCUMENT&profileId=ACoAADyPTHgBTJe4_uSXLLj5V5yjCu85eKggF9o", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Postman Student Leader}}",
+                            "text": "Postman Student Leader Certificate"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Awards" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2024, "month": 3},
+                    "preview": {
+                        "links": [
+                            {"href": "https://badgr.com/public/assertions/v2uDJaEcTima6rALFSHAkA", "tooltipString": "read", "faIcon": "fa-solid fa-file-pdf"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Postman Student Leader Badge}} – Postman & API Advocacy",
+                            "province": "Meru",
+                            "country": "KE",
+                            "institution": "Postman Inc",
+                            "text": "Awarded for outstanding performance in leading promoting API literacy at my college and beyond through community building as well as conducting workshops and hackathons. I have also received a certificate of recognition for this achievement."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

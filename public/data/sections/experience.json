@@ -1,0 +1,196 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/experience/ncwsc.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 8
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Information Technology}} Attachment",
+                            "province": "Nairobi",
+                            "country": "Kenya",
+                            "institution": "Nairobi City Water & Sewerage Company",
+                            "text": "During my Information Technology attachment, I gained hands-on experience in IT operations, support, and system administration. I worked alongside experienced professionals, contributing to real-world problem-solving, network management, software installation, and user support. This attachment enhanced my technical skills and understanding of IT infrastructure in a professional environment.",
+                            "list": [
+                                "Provided technical support to end-users by troubleshooting hardware and software issues.",
+                                "Assisted in the installation and configuration of operating systems, applications, and updates.",
+                                "Participated in routine maintenance of network equipment and monitored network performance.",
+                                "Supported user account creation, permission management, and password resets via Active Directory.",
+                                "Documented incidents, IT procedures, and network diagrams for internal records and audits.",
+                                "Helped with setting up new workstations, including cabling, imaging, and software configuration.",
+                                "Worked with the IT team to apply cybersecurity best practices and antivirus protections.",
+                                "Learned and applied IT service management (ITSM) tools to handle support tickets and issue tracking.",
+                                "Collaborated with cross-functional teams to understand system workflows and technical requirements.",
+                                "Observed and practiced IT change control procedures and asset management protocols."
+                            ],
+                            "tags": [
+                                "Technical Support",
+                                "System Installation & Configuration",
+                                "Network Administration",
+                                "User Account Management",
+                                "Documentation & Reporting",
+                                "Hardware Setup",
+                                "IT Service Management",
+                                "Collaboration & Communication",
+                                "IT Governance & Asset Management"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/experience/teach2give.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Information Technology}} Attachment",
+                            "province": "Meru",
+                            "country": "Kenya",
+                            "institution": "Teach2Give Individual Family Community",
+                            "text": "During this industrial attachment, I was primarily engaged in learning and applying customer service principles in a professional setting. The experience focused on building strong communication and interpersonal skills while interacting with clients, understanding their needs, and ensuring a positive service experience. I participated in real-world scenarios that required active listening, problem-solving, and maintaining professionalism in handling inquiries and complaints. This attachment helped me appreciate the importance of customer satisfaction, empathy, and collaboration in delivering quality service and upholding an organization's reputation.",
+                            "list": [
+                                "Learned the principles of effective customer service in a professional environment.",
+                                "Interacted with customers to understand their needs and provide appropriate assistance.",
+                                "Practiced clear and polite communication in both verbal and written interactions.",
+                                "Observed how to handle customer complaints, inquiries, and feedback professionally.",
+                                "Assisted in maintaining a positive customer experience across different service channels.",
+                                "Learned how to manage time effectively while handling multiple customer requests.",
+                                "Developed active listening skills to ensure accurate understanding of customer issues.",
+                                "Supported the documentation of customer interactions for future reference and improvement.",
+                                "Participated in training sessions focused on empathy, patience, and professionalism.",
+                                "Gained experience in working collaboratively with teams to resolve customer-related issues."
+                            ],
+                            "tags": [
+                                "Customer Service",
+                                "Communication Skills",
+                                "Customer Interaction",
+                                "Problem Solving",
+                                "Time Management",
+                                "Empathy and Patience",
+                                "Conflict Resolution",
+                                "Teamwork",
+                                "Customer Satisfaction",
+                                "Professional Conduct"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/education/postman.svg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "year": null,
+                        "month": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Postman Student}} Leader",
+                            "province": "Remote",
+                            "country": "",
+                            "institution": "Postman",
+                            "text": "Volunteering as a Postman Student Leader, I promote API literacy and help fellow students learn modern API practices using Postman. I organize workshops, create educational content, and foster community engagement around API development and testing. Through this role, I have strengthened my skills in leadership, communication, and backend development with a focus on real-world applications of APIs.",
+                            "list": [
+                                "Organized and facilitated workshops and API training sessions for students.",
+                                "Taught peers how to build, test, and document APIs using Postman tools.",
+                                "Created API collections and learning resources to support self-paced learning.",
+                                "Mentored fellow students on RESTful API design and best practices.",
+                                "Promoted API literacy and awareness through social media and school tech communities.",
+                                "Collaborated with other Postman Student Leaders and tech clubs for joint events.",
+                                "Encouraged hands-on learning through challenges, demos, and mini-projects.",
+                                "Represented the Postman brand and upheld its mission of democratizing APIs.",
+                                "Gained experience in leadership, event coordination, and public speaking.",
+                                "Provided feedback to Postman on student experiences and learning improvements."
+                            ],
+                            "tags": [
+                                "API Development",
+                                "Public Speaking",
+                                "Leadership",
+                                "Technical Mentorship",
+                                "Community Building",
+                                "Event Organization",
+                                "RESTful APIs",
+                                "Educational Content Creation",
+                                "Collaboration",
+                                "Developer Advocacy"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

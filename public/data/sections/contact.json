@@ -1,0 +1,88 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Feel free to",
+                "title_long": "{{Contact}} Me"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Via phone, e-mail or social media"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "+254 798 941735",
+                    "link": {"href": "tel:254798941735", "tooltipString": "call_me"},
+                    "locales": {
+                        "en": {"title": "Phone"}
+                    }
+                },
+                {
+                    "id":2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "cavinlarry001@gmail.com",
+                    "link": {"href": "mailto:cavinlarry001@gmail.com", "tooltipString": "email_me"},
+                    "locales": {
+                        "en": {"title": "E-mail"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@KIllercavin",
+                    "link": {"href": "https://linkedin.com/in/killercavin", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "LinkedIn"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-twitter",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@KIllercavin",
+                    "link": {"href": "https://x.com/Killercavin", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "X(Twitter)"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-instagram",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@killer_cavin",
+                    "link": {"href": "https://instagram.com/killer_cavin", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "Instagram"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-reddit",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@markchoi",
+                    "link": {"href": "https://reddit.com/Killercavin", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": { "title": "Reddit" }
+                    }
+                }
+            ]
+        }
+    ]
+}
