@@ -9,7 +9,11 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "resume:make:article": "node npm/npm-resume-new-article.js",
-        "resume:clear": "node npm/npm-resume-clear.js"
+        "resume:clear": "node npm/npm-resume-clear.js",
+        "dev:netlify": "netlify dev",
+        "build:netlify": "netlify build",
+        "serve:netlify": "netlify serve",
+        "deploy:netlify": "netlify deploy"
     },
     "dependencies": {
         "@emailjs/browser": "^4.4.1",
