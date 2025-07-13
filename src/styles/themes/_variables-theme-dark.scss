@@ -31,29 +31,34 @@
 
 @import "theme-variables-builder";
 
-$primary: #38BDF8;
-$secondary: #64748B;
-$dark: #0F172A;
-$danger: #EF4444;
-$muted: #94A3B8;
+// VS Code inspired color palette for dark theme
+$primary: #4FC3F7;  // Lighter blue for dark mode
+$secondary: #90A4AE;  // Light gray-blue
+$dark: #1E1E1E;  // Dark accent
+$danger: #F48FB1;  // Softer red for dark mode
+$muted: #9E9E9E;  // Muted text
 
-$base-bg: #0A192F;
-$base-bg-light: #112240;
-$base-bg-dark: #020215;
+// VS Code dark theme backgrounds
+$base-bg: #1E1E1E;  // VS Code dark background
+$base-bg-light: #2D2D30;  // Slightly lighter
+$base-bg-dark: #181818;  // Darker variant
 
-$texts: #F8FAFC;
-$texts-inverted: #0A192F;
+// Text colors
+$texts: #CCCCCC;  // VS Code light text
+$texts-inverted: #1E1E1E;
 
-$base-container-bg: #181818;
-$base-popover-bg: #0e0e0e;
-$base-boards: lighten($base-container-bg, 3%);
-$base-info-badges: lighten($dark, 3%);
-$empty: darken($base-container-bg, 3%);
-$empty-accent: #131313;
+// Container backgrounds
+$base-container-bg: #252526;  // VS Code sidebar/panel color
+$base-popover-bg: #2D2D30;
+$base-boards: lighten($base-container-bg, 2%);  // Subtle variation
+$base-info-badges: #1E3A8A;  // Dark blue for badges
+$empty: darken($base-container-bg, 2%);
+$empty-accent: #1E1E1E;
 
-$borders: #1D1D1D;
-$scrollbar-track: #101010;
-$scrollbar-thumb: #32343a;
+// Borders and UI elements
+$borders: #3E3E42;  // VS Code border color
+$scrollbar-track: #1E1E1E;
+$scrollbar-thumb: #424242;
 
 :root {
     @include build-theme(
@@ -79,11 +84,11 @@ $scrollbar-thumb: #32343a;
         /** NAV MOBILE: **/                 $texts,
         /** NAV MOBILE BORDER: **/          $borders,
 
-        /** NAV MOBILE HOVER BG: **/        $empty-accent,
+        /** NAV MOBILE HOVER BG: **/        lighten($empty-accent, 5%),
         /** NAV MOBILE HOVER: **/           $primary,
 
-        /** NAV MOBILE SELECTED BG: **/     $borders,
-        /** NAV MOBILE SELECTED: **/        $primary,
+        /** NAV MOBILE SELECTED BG: **/     $primary,
+        /** NAV MOBILE SELECTED: **/        $texts-inverted,
         /** NAV MOBILE SELECTED BORDER: **/ $primary,
 
         // Main Layout Elements...

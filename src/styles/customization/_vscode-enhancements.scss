@@ -1,0 +1,94 @@
+/**
+ * @author Cavin
+ * @description VS Code inspired enhancements for a more professional look
+ */
+
+// VS Code inspired focus states and interactions
+button,
+.btn,
+input,
+textarea,
+select {
+  transition: all 0.15s ease-in-out;
+  
+  &:focus {
+    outline: 2px solid var(--theme-primary);
+    outline-offset: 1px;
+    box-shadow: none;
+  }
+}
+
+// VS Code inspired hover effects for cards and interactive elements
+.card,
+.board,
+[class*="board"] {
+  transition: all 0.2s ease-in-out;
+  
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  [data-theme="dark"] & {
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+// VS Code inspired link styling
+a {
+  transition: color 0.15s ease-in-out;
+  
+  &:hover {
+    color: var(--theme-primary) !important;
+    text-decoration: none !important;
+  }
+}
+
+// VS Code inspired subtle animations for better user experience
+.nav-item,
+.navigation-item {
+  transition: all 0.2s ease-in-out;
+}
+
+// VS Code inspired code blocks (if any)
+code,
+pre,
+.code {
+  background-color: var(--theme-background-contrast);
+  border: 1px solid var(--theme-borders);
+  border-radius: 4px;
+}
+
+// Enhanced scrollbar styling to match VS Code
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--theme-scrollbar-track);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-scrollbar-thumb);
+  border-radius: 6px;
+  border: 2px solid var(--theme-scrollbar-track);
+  
+  &:hover {
+    background: var(--theme-primary);
+  }
+}
+
+// VS Code inspired selection styling
+::selection {
+  background-color: var(--theme-primary);
+  color: var(--theme-texts-inv);
+}
+
+::-moz-selection {
+  background-color: var(--theme-primary);
+  color: var(--theme-texts-inv);
+}

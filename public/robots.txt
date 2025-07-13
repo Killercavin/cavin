@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://cavin.vercel.app/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Block common bot files
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /*.scss$
+Disallow: /*.js.map$
+Disallow: /*.css.map$
+
+# Allow important files
+Allow: /images/
+Allow: /public/
+Allow: /*.css$
+Allow: /*.js$

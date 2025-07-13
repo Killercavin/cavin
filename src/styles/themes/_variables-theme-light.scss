@@ -33,31 +33,36 @@
 
 @import "theme-variables-builder";
 
-$primary: #38BDF8;
-$secondary: #64748B;
-$dark: #edf3f6;
-$danger: #EF4444;
-$muted: #94A3B8;
+// VS Code inspired color palette for light theme
+$primary: #007ACC;  // VS Code blue
+$secondary: #6C7B7F;  // Subtle gray-blue
+$dark: #E8E8E8;  // Light gray for dark accents
+$danger: #F14C4C;  // VS Code red
+$muted: #6C6C6C;  // Muted text
 
-$base-bg: #FFFFFF;
-$bg-light: #F8FAFC;
-$bg-dark: #F1F5F9;
+// Background colors - clean and minimal
+$base-bg: #FFFFFF;  // Pure white
+$bg-light: #FAFAFA;  // Very light gray
+$bg-dark: #F3F3F3;  // Light gray
 
-$texts: #0F172A;
-$texts-inverted: #F8FAFC;
+// Text colors
+$texts: #1E1E1E;  // VS Code dark text
+$texts-inverted: #FFFFFF;
 
+// Container backgrounds
 $base-container-bg: #FFFFFF;
-$base-container-bg-accent: #F8FAFC;
-$base-popover-bg: #F8FAFC;
-$base-boards: #F1F5F9;
-$base-info-badges: #E2E8F0;
-$empty: #F8FAFC;
+$base-container-bg-accent: #F8F8F8;
+$base-popover-bg: #FFFFFF;
+$base-boards: #F6F6F6;  // Subtle board background
+$base-info-badges: #E7F3FF;  // Light blue for badges
+$empty: #FAFAFA;
 
-$borders: #E2E8F0;
-$borders-nav-mobile: rgba(white, 0.15);
-$borders-nav-mobile-accent: #F1F5F9;
-$scrollbar-track: #F1F5F9;
-$scrollbar-thumb: #CBD5E1;
+// Borders and UI elements
+$borders: #E1E1E1;  // Subtle borders
+$borders-nav-mobile: rgba(255, 255, 255, 0.1);
+$borders-nav-mobile-accent: #E1E1E1;
+$scrollbar-track: #F0F0F0;
+$scrollbar-thumb: #C1C1C1;
 
 [data-theme="light"] {
     @include build-theme(
@@ -73,22 +78,22 @@ $scrollbar-thumb: #CBD5E1;
 
         // Main Layout Colors...
         /** BG: **/                         $base-bg,
-        /** BG CONTRAST: **/                $base-bg-light,
-        /** BG CONTRAST DARKEN:**/          $base-bg-dark,
+        /** BG CONTRAST: **/                $bg-light,
+        /** BG CONTRAST DARKEN:**/          $bg-dark,
         /** TEXTS: **/                      $texts,
         /** TEXTS (INVERTED): **/           $texts-inverted,
 
         // Nav
         /** NAV MOBILE BG: **/              $base-container-bg-accent,
         /** NAV MOBILE: **/                 $texts,
-        /** NAV MOBILE BORDER: **/          $borders-nav-mobile-accent,
+        /** NAV MOBILE BORDER: **/          $borders,
 
-        /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
+        /** NAV MOBILE HOVER BG: **/        lighten($base-container-bg-accent, 2%),
         /** NAV MOBILE HOVER: **/           $primary,
 
         /** NAV MOBILE SELECTED BG: **/     $primary,
         /** NAV MOBILE SELECTED: **/        $texts-inverted,
-        /** NAV MOBILE SELECTED BORDER: **/ $borders-nav-mobile,
+        /** NAV MOBILE SELECTED BORDER: **/ $primary,
 
         // Main Layout Elements...
         /** SECTION BG: **/                 $base-container-bg,
