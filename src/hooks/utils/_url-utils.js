@@ -17,7 +17,7 @@ export const _urlUtils = {
      */
     getRootLocation: () => {
         const { protocol, host } = window.location
-        const basePath = import.meta.env.BASE_URL
+        const basePath = '/'
         const path = `${protocol}//${host}${basePath}`
         return path.endsWith('/') ? path : `${path}/`
     },
