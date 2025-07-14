@@ -77,7 +77,7 @@
                     "faIcon": "fa-brands fa-reddit",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@Killercavin",
-                    "link": {"href": "https://reddit.com/Killercavin", "tooltipString": "open_website"},
+                    "link": {"href": "https://reddit.com/user/Killercavin", "tooltipString": "open_website"},
                     "locales": {
                         "en": { "title": "Reddit" }
                     }
