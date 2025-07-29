@@ -60,7 +60,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "<p>I’m a {{Kotlin}} developer with [[a half a year]] of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with JavaScript, TypeScript and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs, whether it's building scalable APIs, optimizing system performance, or contributing to full-stack solutions.</p><p>I look forward to collaborating [[with you!]]</p>"
+                            "text": "<p>I’m a {{software}} developer with [[more than a year]] of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with JavaScript, Kotlin in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs, whether it's building scalable APIs, optimizing system performance, or contributing to full-stack solutions.</p><p>I look forward to collaborating [[with you!]]</p>"
                         }
                     }
                 }
