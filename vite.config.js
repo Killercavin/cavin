@@ -32,7 +32,7 @@ export default defineConfig({
   // SEO and performance optimizations
   server: {
     headers: {
-      'Cache-Control': 'public, max-age=31536000',
+      'Cache-Control': 'no-cache',
     },
   },
   css: {
