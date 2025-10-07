@@ -191,6 +191,61 @@
                     }
                 }
             ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/education/postman.svg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": null,
+                        "month": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Network Operations Center}} Technician",
+                            "province": "",
+                            "country": "Kenya",
+                            "institution": "WECCONNECT WIFI",
+                            "text": "As a Network Technician Apprentice, I gained hands-on experience supporting a community-based ISP in delivering reliable internet connectivity. My role involved working closely with senior technicians to understand the foundations of fiber optics, fiber splicing, configuration of end user networking devices ie switches, L3 switches, ISP devices for internet networking ie ONU, XPON, and customer support operations.",
+                            "list": [
+                                "Assisted in the installation, splicing, and troubleshooting of fiber optic connections for residential and small business clients.",
+                                "Participated in network setup and configuration, including routers, switches, and last-mile connectivity",
+                                "Learned practical approaches to fault isolation and issue resolution for customer connectivity challenges",
+                                "Supported documentation and reporting of service issues to improve service response times.",
+                                "Strengthened my foundation in networking fundamentals, which I am extending toward Software Engineering with a focus in CloudOps, DevOps, and SecOps"
+                            ],
+                            "tags": [
+                                "Routers",
+                                "Switches",
+                                "Optical Line Terminal",
+                                "Access Terminal Box",
+                                "Optical Network Terminal/Unit",
+                                "GPON",
+                                "XPON",
+                                "EPON",
+                                "Fiber Optic Fusion"
+                            ]
+                        }
+                    }
+                }
+            ]
         }
     ]
 }
